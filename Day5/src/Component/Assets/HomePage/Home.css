@@ -1,0 +1,106 @@
+.body0
+{
+    background-image: url("https://academyflorida.com/wp-content/uploads/2019/02/Career-Fair1.png");
+    background-size: cover;
+    height:90vh;
+    padding-top: 20px;
+}
+body, html {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    font-size: 30px;
+    justify-content: flex-start;
+}
+
+.footer
+{
+    background-color:steelblue;
+}
+.sb_footer
+{
+    display:flex;
+    flex-direction: column;
+}
+.sb_footer-links
+{
+    display:flex;
+    justify-content:flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width:90%;
+    text-align: left;
+    margin-bottom:1rem;
+    flex-direction: row;
+}
+.sb_footer-links_div
+{
+    width: 150px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+}
+.sb_footer-links_div h4{
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0.9 rem;
+}
+.sb_footer-links_div p{
+    font-size:12px;
+    line-height:15px;
+    margin:0.5rem 0;
+    cursor:pointer;
+}
+.sb_footer-below
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+}
+
+.sb_footer-below-links p{
+    font-size:13px;
+    line-height:15px;
+    margin-left:2rem;
+    color: white;
+    font-weight: 600;
+}
+hr{
+    color: white!important;
+    width:100%
+}
+.sb_footer-copyright
+{
+    font-size: 13px;
+    line-height: 15px;
+    color:black;
+    font-weight: 600;
+}
+.bottom {
+    background-color: #e5e7eb;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  .quote1 {
+    width: 80%;
+    font-weight: lighter;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .prof{
+  
+    border-radius:100px;
+    height: 200px;
+    width: 200px;
+
+} 
+
+
