@@ -1,0 +1,67 @@
+.body2{
+    background :no-repeat url("https://img.freepik.com/free-photo/watercolor-light-steel-blue-wallpaper-image_53876-94665.jpg?w=740&t=st=1694717172~exp=1694717772~hmac=de540373bfdb24c949a58dbbcee923900af20d708b5635b326f2895832079800");
+    background-size:cover;
+    font-size: 17px;
+    font-family: sans-serif;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 150vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+input[type=text],[type=number],[type=password]
+{
+    width:80%;
+    padding: 3px 22px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+input[type=email]
+{
+    width:80%;
+    padding: 3px 22px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    
+}
+button[class="submit2"] {
+  margin-top: 1x;
+  cursor: pointer;
+  font-size: 14px;
+  background:lightcyan;
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+  .signup-form {
+    
+    background-color:rgb(70, 130, 180);
+    padding: 1rem;
+    padding-right: 25rem;
+    text-align: left;
+    justify-content: flex-start; 
+    position:relative; 
+    top:2px; 
+    box-shadow: 1 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:white;
+    background-image: url("https://img.freepik.com/free-vector/blogging-concept-illustration_114360-1038.jpg?w=740&t=st=1695044900~exp=1695045500~hmac=8c430ca47754f996bbbae358b96cfdfcf31ebc5d9147c1c92bbaf02914e14fd4");
+    background-repeat: no-repeat;
+    background-size: 55% 100%;
+    background-position: right;
+    margin: 0 auto;
+    
+  }
+  @media screen and (max-width: 500px) {
+    .body2 {
+      padding-left: 130px;
+    }
+  }

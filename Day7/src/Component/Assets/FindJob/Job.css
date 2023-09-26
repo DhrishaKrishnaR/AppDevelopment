@@ -1,0 +1,98 @@
+.bodyj {
+    margin: 0;
+    background-color:#d7e2e9;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.job-card {
+    background-color: white;
+    width: calc(29.33% - 20px);    
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 25px;
+    border-radius: 40px;
+    box-shadow: 0 5px 4px black;
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+}
+.search-wrapper
+{
+    padding: 10px;
+    width: 510px;
+    
+}
+#search
+{
+    box-shadow:0 3px 3px #393a5f;
+    padding: 20px;
+    border: #393a5f;
+    
+}
+
+
+  
+
+.card-content {
+    padding-bottom: 1rem;
+}
+
+.job-title {
+    margin: 0;
+    font-weight: bold;
+}
+
+.company {
+    color:#393a5f;
+}
+
+.btn-apply {
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: #393a5f;
+    border: 2px solid #393a5f;
+    padding: 0.6rem 1rem;
+    border-radius: 2rem;
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-apply:hover {
+    background-color: #393a5f;
+    color: #fff;
+    border: 2px solid #393a5f;
+}
+.job-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+  }
+  .job-heading {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .job-heading.animate {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.4s; 
+  }
