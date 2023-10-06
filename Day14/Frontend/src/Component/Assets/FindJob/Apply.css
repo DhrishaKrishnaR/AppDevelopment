@@ -1,0 +1,145 @@
+.bodya{
+    background-color:darkgray;
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+.survey-container {
+    margin: 0px auto;
+    padding: 10px 20px;
+    width: 80%;
+    max-width: 840px;
+    border-radius: calc(3 * var(--border-radius));
+    justify-content: center;
+  }
+  
+.ah1 {
+    text-align: center;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 50px;
+
+  }
+  
+  #description {
+    margin: 30px 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--color-3);
+  }
+  
+  #survey-form {
+    padding: 30px;
+    padding-top: 20px;
+    background:gainsboro;
+    opacity: 98%;
+    border: none;
+    text-align: left;
+  }
+  
+  #survey-form * {
+    font-size: 18px;
+  }
+  
+  .row-label,
+  .row-input {
+    margin: 0;
+    padding: 5px 20px;
+    height: var(--box-height);
+    width: 80%;
+    display: block;
+  }
+  
+  .row-label {
+    color: var(--color-3);
+    font-weight: 600;
+  }
+  
+  .row-label:not(:first-child) {
+    margin-top: var(--space-between);
+  }
+  
+  .row-input:not(.small) {
+    background: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .inline-label {
+    margin-left: 10px;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .small {
+    height: calc(var(--box-height) * 0.75);
+  }
+  
+  #comments {
+    padding: 10px;
+    margin: 0;
+    height: 120px;
+    width: 80%;
+    background: white;
+    border: none;
+    border-radius: var(--border-radius);
+    resize: none;
+  }
+  
+  .submita {
+    margin-top: calc(2 * var(--space-between));
+    height: var(--box-height);
+    width: 20%;
+    background: gainsboro;
+    border: none;
+    border-radius: 40px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: capitalize;
+    background-color:white;
+  }
+  
+  .submita:hover {
+    box-shadow: 0 0 2px black;
+    background-color: aliceblue;
+  }
+  .bodyd {
+    text-align: center;
+    padding: 40px 0;
+    background: #EBF0F5;
+    background-size: cover;
+    height: 85vh;
+  }
+    .sus {
+      color:cadetblue;
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-weight: 900;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    .psus {
+      color: #404F5E;
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-size:20px;
+      margin: 0;
+    }
+  .checkmark {
+    color:cadetblue;
+    font-size: 100px;
+    line-height: 200px;
+    margin-left:-15px;
+  }
+  .cardd {
+    background: white;
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #C8D0D8;
+    display: inline-block;
+    margin: 0 auto;
+  }

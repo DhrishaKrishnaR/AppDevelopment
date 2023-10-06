@@ -1,0 +1,201 @@
+.bodyf{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 100%;
+    max-width: 1150px;
+    background-color:#ccc;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+  }
+  
+  .topic {
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom: solid 2px #ebebeb;
+  }
+  .open {
+    cursor: pointer;
+    display: block;
+    padding: 0px;
+  }
+  .open:hover {
+    opacity: 0.7;
+  }
+  .expanded {
+    background-color: #f5f5f5;
+    transition: all 0.3s ease-in-out;
+  }
+  .question {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+  }
+  .answer {
+    font-size: 16px;
+    line-height: 26px;
+    display: none;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .faq-t {
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    float: right;
+    display: inline-block;
+    position: relative;
+    top: -55px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border-left: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .faq-o {
+    top: -50px;
+    -moz-transform: rotate(-224deg);
+    -ms-transform: rotate(-224deg);
+    -webkit-transform: rotate(-224deg);
+    transform: rotate(-224deg);
+  }
+  @media only screen and (max-width: 480px) {
+    .faq-t {
+      display: none;
+    }
+    .question {
+      padding-right: 0px;
+    }
+    .bodyf {
+      padding: 10px;
+    }
+    .answer {
+      margin-bottom: 30px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+  /*Profile*/
+  .bodypro
+  {
+    background-color: #ccc;
+    background-size: cover;
+   height: 100vh;
+   margin: 0;
+  }
+  .wrapper9{
+    padding-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+  }
+  .user-card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: #fff;
+   border-radius: 10px;
+   padding: 40px;
+   width: 650px;
+   position: relative;
+   overflow: hidden;
+   box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+ }
+  
+ .user-card:before {
+    content: '';
+    position: absolute;
+    height: 300%;
+    width: 173px;
+    background: #262626;
+    top: -60px;
+    left: -125px;
+    z-index: 0;
+    transform: rotate(17deg);
+  }
+  
+  .user-card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    z-index: 3;
+  }
+  
+  .user-card-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+      border-radius: 50%;
+  }
+  
+  .user-card-info {
+    text-align: center;
+  }
+  
+  .user-card-info h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
+  }
+  
+  .user-card-info p {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  .user-card-info p span {
+   font-weight: 700;
+   margin-right: 10px;
+ }
+  @media only screen and (min-width: 768px) {
+    .user-card {
+      flex-direction: row;
+      align-items: flex-start;
+    }   
+    .user-card-img {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  
+    .user-card-info {
+      text-align: left;
+    }
+  }
+ 
+  @media (max-width: 767px){
+    .wrapper3{
+       padding-top: 3%;
+    }
+    .user-card:before {
+       width: 300%;
+       height: 200px;
+       transform: rotate(0);
+    }
+    .user-card-info h2 {
+       margin-top: 25px;
+       font-size: 35px;
+    }
+    .user-card-info p span {
+       display: block;
+       margin-bottom: 15px;
+       font-size: 18px;
+    }
+  }
+  
+  
+ 
