@@ -1,0 +1,12 @@
+server:
+  port: 9003
+
+
+spring:
+  application:
+    name: ContactUs
+
+
+eureka:
+  instance:
+    hostname: localhost
