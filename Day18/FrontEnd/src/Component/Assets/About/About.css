@@ -1,0 +1,74 @@
+.bodyabout
+{
+    background-image: url("../imag/about.png");
+  background-size: 45% 100%;
+  background-position: right;
+  background-repeat:no-repeat ;
+      height:100vh;
+      display: flex;
+      justify-content: flex-start; 
+      align-items: left;
+
+      
+    }
+    .label5 {
+        height: 35px;
+        width: 81px;
+        
+    }
+    
+    .label5 .text-wrapper {
+        padding-top: 70px;
+        color: #5f67b0;
+        font-family: "Inika-Regular", Helvetica;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: underline;
+        width: 81px;
+        padding-left: 85px;
+        text-align: left;
+    }
+    .label6 {
+        height: 157px;
+        width: 475px;
+    }
+    
+    .label6 .about-our-company {
+        padding-top: 80px;
+        color: transparent;
+        font-family: "Inria Serif-Bold", Helvetica;
+        font-size: 45px;
+        font-weight: 700;
+        text-align: left;
+    line-height: normal;
+    width: 475px;
+  }
+  
+  .label6 .text-wrapper {
+      color: #000000;
+    }
+    
+    .label6 .span {
+        color: #5f67b0;
+    }
+    .label7 {
+        height: 354px;
+        width: 872px;
+    }
+    
+    .label7 .text-wrapper {
+        color: #000000;
+    font-family: "Inika-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    justify-content: center;
+    top: 0;
+    width: 652px;
+    text-align: left;
+  }
+  
+  
