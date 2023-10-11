@@ -1,0 +1,80 @@
+.bodyr {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    height: 150vh;
+    background-color: #f0f0f0;
+    background-size:cover;
+
+}
+
+.input-fields {
+    margin: 2px auto;
+    max-width: 500px;
+    flex: 1;
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 40px;
+    height:800px;
+}
+
+@media (min-width: 768px) {
+    .resume-container {
+        flex-direction: row;
+    }
+}
+
+
+
+.input-fields input,
+.input-fields textarea {
+    width: 90%;
+    height: 40px;
+    margin: 2px 0; 
+}
+.in
+{
+    border-radius: 12px;
+}
+.hero {
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.btn {
+    text-align: center;
+    margin: 2px;
+}
+
+.resb {
+    width: 150px;
+    background-color: rgb(68, 218, 255);
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1x;
+    cursor: pointer;
+}
+
+.preview {
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+}
+#resume-preview
+{
+    border: 4px solid #ccc;
+    padding: 10px;
+}
