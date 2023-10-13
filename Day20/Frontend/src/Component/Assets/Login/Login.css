@@ -1,0 +1,89 @@
+.body1 {
+    background-image: url("https://img.freepik.com/fre-vector/flat-employment-agency-search-new-employees-hire_88138-802.jpg?w=740&t=st=1694708831~exp=1694709431~hmac=2a7af15430aa975587c90a0a3b6424b18ea822f48ffe341a18b2972a7fa9e465");
+    background-size: 55% 100%;
+    background-position: right;
+    background-color: bisque;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start; 
+    flex-direction:column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    overflow: hidden;
+  }
+.img{
+    position:fixed;
+    top: 50px;
+}
+.login-form {
+    background-color:cornsilk;
+    padding: 11.2rem;
+    padding-left: 20px;
+    padding-right: 70px;
+    position: relative;
+    left: 50px;
+    top: 40px;
+    width: 30%; 
+    height: 35%;
+    text-align: left;
+    box-shadow: 0 9px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    
+  }
+
+.title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+input[type=text],[type=password]
+{
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width:55%;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+button[class="Submit"] {
+    margin-top: 1x;
+    cursor: pointer;
+    font-size: 18px;
+    background:indianred;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 20px;
+  }
+  button[class="Submit"]:hover {
+    background:lightcoral;
+  }
+
+button[class="login"] {
+    margin-top: 1x;
+    cursor: pointer;
+    font-size: 18px;
+    background:indianred;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 20px;
+  }
+  button[class="login"]:hover {
+    background: lightcoral;
+  }
+  .button-container {
+    display:inline-block;
+    justify-content:center;
+  }
+  .input-container {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 15px;
+  }
