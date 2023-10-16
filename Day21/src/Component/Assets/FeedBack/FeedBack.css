@@ -1,0 +1,68 @@
+.mainfeed{
+    width: 70%;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: rgb(205, 65, 65);
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  #description{
+    text-align: center;
+    color: #FFF5E1;
+  
+  }
+  .bodyfeed {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding: 20px;
+    background-attachment: fixed;
+    background-image: url(https://media.istockphoto.com/id/1390367114/vector/set-of-editable-vector-creative-geometric-abstract-elements-with-editable-stroke-weight.jpg?s=1024x1024&w=is&k=20&c=3kvIhtrQnU7uMxgo2LY0nSspO1NjGIxMUPBoFNmqQ8E=);
+    flex-direction:column;
+    margin: 0 auto;
+    background-color: rgb(205, 65, 65);
+    justify-content:center;
+    min-height:100vh;
+  
+  }
+  .feedin{
+    width: 100%;
+    border: 3px solid #333333;
+    color:black;
+    margin: 0 0 10px 0;
+    background-color: #FFF5E1
+
+    
+  }
+  .feedlabel
+  {
+    margin: 0;
+    padding: 5px 20px;
+    height: var(--box-height);
+    width: 90%;
+    display: block;
+  }
+  .feedform{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: right;
+  }
+ .bio {
+    width: 100%;
+    background-color: #FFF5E1
+  }
+ .feedsubmit {
+    width: 30%;
+    margin: 1em auto;
+    height: 3em;
+    font-size: 1.1rem;
+    background-color: #e2b1a1;
+    border-color: #333333;
+  }
