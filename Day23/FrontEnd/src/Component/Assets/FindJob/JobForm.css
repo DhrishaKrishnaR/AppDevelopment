@@ -1,0 +1,58 @@
+.job-form-container {
+    text-align: left;
+    background-color:white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.651);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .job-form {
+    flex-direction: column;
+  }
+  .bodyjform
+  {
+    height: 549px;
+    padding-top: 70px;
+    background-color: #ccc;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+
+  }
+  
+  .jflabel {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .injob,
+  .desc {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .post-job-button {
+    background-color:crimson;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    
+  }
+  
+  .post-job-button:hover {
+    background-color:lightcoral;
+  }
+  .desc {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+    
+  }
